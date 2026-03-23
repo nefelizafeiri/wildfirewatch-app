@@ -47,7 +47,8 @@ st.markdown("""
     .legend { display: flex; gap: 16px; justify-content: center; padding: 6px 0; margin-bottom: 4px; }
     .legend-item { display: flex; align-items: center; gap: 5px; font-size: 0.75rem; color: #9ca3af; }
     .legend-dot { width: 10px; height: 10px; border-radius: 2px; }
-    #MainMenu {visibility: hidden;} footer {visibility: hidden;} header {visibility: hidden;}
+    #MainMenu {visibility: hidden;} footer {visibility: hidden;}
+    [data-testid="stSidebar"] { background: #0d1117; }
 </style>
 """, unsafe_allow_html=True)
 
@@ -129,7 +130,7 @@ hex_layer = pdk.Layer(
     opacity=map_opacity, pickable=True, auto_highlight=True,
 )
 
-view = pdk.ViewState(latitude=37.5, longitude=-119.5, zoom=5.6, pitch=40 if elevation_3d else 0, bearing=0)
+view = pdk.ViewState(latitude=37.2, longitude=-119.5, zoom=5.7, pitch=40 if elevation_3d else 0, bearing=0)
 
 tooltip = {
     "html": '<div style="font-family:DM Sans,sans-serif;padding:10px;min-width:200px;"><div style="font-weight:600;margin-bottom:6px;">{hex_id}</div><div style="display:flex;justify-content:space-between;margin-bottom:3px;"><span style="color:#aaa;font-size:12px;">Risk</span><span style="font-weight:600;font-size:12px;">{risk_level}</span></div><div style="display:flex;justify-content:space-between;margin-bottom:3px;"><span style="color:#aaa;font-size:12px;">Probability</span><span style="font-size:12px;">{fire_probability}</span></div><div style="display:flex;justify-content:space-between;"><span style="color:#aaa;font-size:12px;">Drivers</span><span style="font-size:11px;text-align:right;max-width:150px;">{top_3_drivers}</span></div></div>',

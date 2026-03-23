@@ -1,0 +1,6 @@
+streamlit
+pydeck
+h3
+groq
+pandas
+numpy

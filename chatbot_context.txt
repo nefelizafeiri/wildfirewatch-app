@@ -1,0 +1,51 @@
+CURRENT PREDICTIONS — 2025-08-14
+Hexagons: 1,309 | VERY_HIGH: 93 | HIGH: 67 | MODERATE: 357 | LOW: 792
+Active clusters: 8
+
+CLUSTER A: San Gabriel Mountains — VERY_HIGH
+  37 hexes | Prob: avg 0.3054, max 0.4918
+  Temp: 106.6°F | Wind: 30.1mph (max 44.9)
+  NDVI: 0.159 | LST day: 44.4°C | Drought: 4.81
+  Model drivers: geographic location (latitude — historically fire-prone area), satellite daytime surface temperature (°C), cumulative 30-day precipitation deficit
+
+CLUSTER B: Shasta-Trinity Region — VERY_HIGH
+  79 hexes | Prob: avg 0.1921, max 0.2954
+  Temp: 104.4°F | Wind: 24.7mph (max 45.0)
+  NDVI: 0.151 | LST day: 45.2°C | Drought: 4.94
+  Model drivers: geographic location (latitude — historically fire-prone area), cumulative 30-day precipitation deficit, satellite daytime surface temperature (°C)
+
+CLUSTER C: Lake Tahoe / El Dorado — HIGH
+  2 hexes | Prob: avg 0.0996, max 0.1
+  Temp: 113.7°F | Wind: 9.9mph (max 13.1)
+  NDVI: 0.132 | LST day: 44.0°C | Drought: 6.06
+  Model drivers: geographic location (latitude — historically fire-prone area), geographic location (longitude — historically fire-prone area), 16-day smoothed vegetation greenness
+
+CLUSTER D: Lake Tahoe / El Dorado — HIGH
+  2 hexes | Prob: avg 0.0916, max 0.0997
+  Temp: 108.7°F | Wind: 7.5mph (max 11.5)
+  NDVI: 0.175 | LST day: 45.4°C | Drought: 4.44
+  Model drivers: geographic location (longitude — historically fire-prone area), geographic location (latitude — historically fire-prone area), 16-day smoothed vegetation greenness
+
+CLUSTER E: Sequoia National Forest — HIGH
+  2 hexes | Prob: avg 0.0915, max 0.0974
+  Temp: 97.1°F | Wind: 7.2mph (max 10.8)
+  NDVI: 0.165 | LST day: 49.0°C | Drought: 3.32
+  Model drivers: geographic location (latitude — historically fire-prone area), cumulative 30-day precipitation deficit, sustained high temperatures over past 7 days
+
+CLUSTER F: Sequoia National Forest — HIGH
+  3 hexes | Prob: avg 0.0898, max 0.0991
+  Temp: 108.4°F | Wind: 8.9mph (max 17.7)
+  NDVI: 0.132 | LST day: 42.7°C | Drought: 6.39
+  Model drivers: day of year (peak fire season timing), satellite daytime surface temperature (°C), geographic location (longitude — historically fire-prone area)
+
+CLUSTER G: Sequoia National Forest — HIGH
+  3 hexes | Prob: avg 0.0896, max 0.0961
+  Temp: 106.3°F | Wind: 4.6mph (max 6.1)
+  NDVI: 0.15 | LST day: 47.2°C | Drought: 4.11
+  Model drivers: day of year (peak fire season timing), satellite daytime surface temperature (°C), geographic location (longitude — historically fire-prone area)
+
+CLUSTER H: Sequoia National Forest — HIGH
+  2 hexes | Prob: avg 0.087, max 0.0912
+  Temp: 109.9°F | Wind: 8.0mph (max 12.9)
+  NDVI: 0.15 | LST day: 44.9°C | Drought: 4.55
+  Model drivers: geographic location (latitude — historically fire-prone area), 7-day average daytime surface temperature (°C), 30-day average precipitation

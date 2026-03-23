@@ -1,0 +1,93 @@
+{
+  "clusters": [
+    {
+      "label": "A",
+      "region": "San Gabriel Mountains",
+      "risk_level": "VERY_HIGH",
+      "summary": "The San Gabriel Mountains are experiencing extreme fire risk with 37 hexagons at VERY_HIGH risk, averaging 30.54% probability of fire. The area is under intense heat stress with max temperatures reaching 106.6\u00b0F and sustained high temperatures over the past 7 days. The model's top drivers include geographic location (historically fire-prone area), satellite daytime surface temperature (44.4\u00b0C), and cumulative 30-day precipitation deficit. CAL FIRE is advised to pre-position Type 1 engines within 15-minute response time and have aerial resources on standby at the nearest air base.",
+      "actions": [
+        "Pre-position Type 1 engines within 15-minute response time of high-risk areas.",
+        "Have aerial resources (helicopters, air tankers) on standby at the nearest air base.",
+        "Activate the CAL FIRE READY-SET-GO framework, moving to SET status, and be prepared to issue evacuation warnings."
+      ]
+    },
+    {
+      "label": "B",
+      "region": "Shasta-Trinity Region",
+      "risk_level": "VERY_HIGH",
+      "summary": "The Shasta-Trinity Region is experiencing extreme fire risk with 79 hexagons at VERY_HIGH or HIGH risk, averaging 19.21% probability of fire. The area is under intense heat stress with max temperatures reaching 104.4\u00b0F and sustained high temperatures over the past 7 days. The model's top drivers include geographic location (historically fire-prone area), cumulative 30-day precipitation deficit, and satellite daytime surface temperature (45.2\u00b0C). CAL FIRE is advised to pre-position Type 1 engines within 15-minute response time and have aerial resources on standby at the nearest air base.",
+      "actions": [
+        "Pre-position Type 1 engines within 15-minute response time of high-risk areas.",
+        "Have aerial resources (helicopters, air tankers) on standby at the nearest air base.",
+        "Activate the CAL FIRE READY-SET-GO framework, moving to SET status, and be prepared to issue evacuation warnings."
+      ]
+    },
+    {
+      "label": "C",
+      "region": "Lake Tahoe / El Dorado",
+      "risk_level": "HIGH",
+      "summary": "The Lake Tahoe / El Dorado area is experiencing high fire risk with 4 hexagons at HIGH risk, averaging 9.96% probability of fire. The area is under heat stress with max temperatures reaching 113.7\u00b0F. The model's top drivers include geographic location (historically fire-prone area), geographic location (longitude \u2014 historically fire-prone area), and 16-day smoothed vegetation greenness. CAL FIRE is advised to pre-position water tenders at key highway corridors and have incident management teams on alert for potential deployment.",
+      "actions": [
+        "Pre-position water tenders at key highway corridors near wildland-urban interface.",
+        "Have incident management teams on alert for potential deployment.",
+        "Activate the CAL FIRE READY-SET-GO framework, moving to SET status, and be prepared to issue evacuation warnings."
+      ]
+    },
+    {
+      "label": "D",
+      "region": "Lake Tahoe / El Dorado",
+      "risk_level": "HIGH",
+      "summary": "The Lake Tahoe / El Dorado area is experiencing high fire risk with 2 hexagons at HIGH risk, averaging 9.16% probability of fire. The area is under heat stress with max temperatures reaching 108.7\u00b0F. The model's top drivers include geographic location (longitude \u2014 historically fire-prone area), geographic location (latitude \u2014 historically fire-prone area), and 16-day smoothed vegetation greenness. CAL FIRE is advised to pre-position water tenders at key highway corridors and have incident management teams on alert for potential deployment.",
+      "actions": [
+        "Pre-position water tenders at key highway corridors near wildland-urban interface.",
+        "Have incident management teams on alert for potential deployment.",
+        "Activate the CAL FIRE READY-SET-GO framework, moving to SET status, and be prepared to issue evacuation warnings."
+      ]
+    },
+    {
+      "label": "E",
+      "region": "Sequoia National Forest",
+      "risk_level": "HIGH",
+      "summary": "The Sequoia National Forest area is experiencing high fire risk with 4 hexagons at HIGH risk, averaging 9.15% probability of fire. The area is under heat stress with max temperatures reaching 97.1\u00b0F. The model's top drivers include geographic location (latitude \u2014 historically fire-prone area), cumulative 30-day precipitation deficit, and sustained high temperatures over the past 7 days. CAL FIRE is advised to pre-position water tenders at key highway corridors and have incident management teams on alert for potential deployment.",
+      "actions": [
+        "Pre-position water tenders at key highway corridors near wildland-urban interface.",
+        "Have incident management teams on alert for potential deployment.",
+        "Activate the CAL FIRE READY-SET-GO framework, moving to SET status, and be prepared to issue evacuation warnings."
+      ]
+    },
+    {
+      "label": "F",
+      "region": "Sequoia National Forest",
+      "risk_level": "HIGH",
+      "summary": "The Sequoia National Forest area is experiencing high fire risk with 3 hexagons at HIGH risk, averaging 8.98% probability of fire. The area is under heat stress with max temperatures reaching 108.4\u00b0F. The model's top drivers include day of year (peak fire season timing), satellite daytime surface temperature (42.7\u00b0C), and geographic location (longitude \u2014 historically fire-prone area). CAL FIRE is advised to pre-position water tenders at key highway corridors and have incident management teams on alert for potential deployment.",
+      "actions": [
+        "Pre-position water tenders at key highway corridors near wildland-urban interface.",
+        "Have incident management teams on alert for potential deployment.",
+        "Activate the CAL FIRE READY-SET-GO framework, moving to SET status, and be prepared to issue evacuation warnings."
+      ]
+    },
+    {
+      "label": "G",
+      "region": "Sequoia National Forest",
+      "risk_level": "HIGH",
+      "summary": "The Sequoia National Forest area is experiencing high fire risk with 3 hexagons at HIGH risk, averaging 8.96% probability of fire. The area is under heat stress with max temperatures reaching 106.3\u00b0F. The model's top drivers include day of year (peak fire season timing), satellite daytime surface temperature (47.2\u00b0C), and geographic location (longitude \u2014 historically fire-prone area). CAL FIRE is advised to pre-position water tenders at key highway corridors and have incident management teams on alert for potential deployment.",
+      "actions": [
+        "Pre-position water tenders at key highway corridors near wildland-urban interface.",
+        "Have incident management teams on alert for potential deployment.",
+        "Activate the CAL FIRE READY-SET-GO framework, moving to SET status, and be prepared to issue evacuation warnings."
+      ]
+    },
+    {
+      "label": "H",
+      "region": "Sequoia National Forest",
+      "risk_level": "HIGH",
+      "summary": "The Sequoia National Forest area is experiencing high fire risk with 2 hexagons at HIGH risk, averaging 8.7% probability of fire. The area is under heat stress with max temperatures reaching 109.9\u00b0F. The model's top drivers include geographic location (latitude \u2014 historically fire-prone area), 7-day average daytime surface temperature (44.9\u00b0C), and 30-day average precipitation. CAL FIRE is advised to pre-position water tenders at key highway corridors and have incident management teams on alert for potential deployment.",
+      "actions": [
+        "Pre-position water tenders at key highway corridors near wildland-urban interface.",
+        "Have incident management teams on alert for potential deployment.",
+        "Activate the CAL FIRE READY-SET-GO framework, moving to SET status, and be prepared to issue evacuation warnings."
+      ]
+    }
+  ],
+  "overall_assessment": "California is experiencing a statewide high fire risk with 8 active risk clusters, including 93 VERY_HIGH risk hexagons. The San Gabriel Mountains and Shasta-Trinity Region are experiencing extreme fire risk, with the model's top drivers including geographic location (historically fire-prone areas) and satellite daytime surface temperature. CAL FIRE is advised to activate the READY-SET-GO framework, pre-position resources, and have incident management teams on alert for potential deployment."
+}

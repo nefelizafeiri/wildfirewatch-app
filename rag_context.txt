@@ -1,0 +1,65 @@
+
+=== MODEL INFORMATION ===
+
+Model: LightGBM binary classifier
+Target: Probability of wildfire within 14 days per H3 hexagon (resolution 5, ~252 km²)
+Training: 2.9M observations, 1,523 California hexagons, 2020–2025
+Performance: ROC-AUC 0.892, AUC-PR 0.29 (14× above the 2% random baseline)
+Base rate: 2.08% of hex-days have a fire within 14 days
+
+RISK LEVELS (based on predicted probability):
+- LOW (0–3%): At or below baseline seasonal risk. Routine monitoring.
+- MODERATE (3–8%): Elevated conditions worth monitoring. 1.5–4× baseline.
+- HIGH (8–15%): Significant risk. Preparedness actions warranted. 4–7× baseline.
+- VERY HIGH (>15%): Extreme risk. Active response measures needed. 7×+ baseline.
+
+KNOWN MODEL LIMITATIONS (be transparent about these):
+- Geographic features (lat/lon) are among the strongest predictors — the model
+  partially learns WHERE fires historically occur, not just conditions.
+- 14-day horizon is long; model captures seasonal and geographic patterns best.
+- Class imbalance 1:47 — false alarms are expected. A "VERY HIGH" hex has maybe
+  a 15-50% chance of fire, not near-certainty.
+- California only. Not generalizable without retraining.
+- MODIS satellite data has multi-day composite cadences (not real-time).
+
+FEATURES (31 total):
+- Weather: max/min temperature, wind speed, precipitation, elevation
+- Derived: 7-day and 30-day rolling averages, lag features, drought index
+- Satellite (MODIS): NDVI, EVI, LAI, FPAR, land surface temperature (day/night)
+- Temporal: month, day of year, season
+
+=== WILDFIRE EMERGENCY MANAGEMENT REFERENCE ===
+
+KEY ENVIRONMENTAL INDICATORS:
+- NDVI below 0.20: severe vegetation dryness, high fuel availability
+- Daytime land surface temperature above 42°C: extreme heat stress
+- Nighttime LST above 25°C: vegetation cannot recover moisture overnight
+- Wind gusts above 35 mph: significantly increases fire spread rate
+- Relative humidity below 15%: critical fire weather conditions
+- Santa Ana winds (hot, dry, northeast) in Southern CA: particularly dangerous
+- Drought index rising: prolonged precipitation deficit drying fuel loads
+
+CAL FIRE READY-SET-GO FRAMEWORK:
+- READY: Create defensible space, prepare go-bags, know evacuation routes.
+- SET: Evacuation warning issued. Be prepared to leave immediately.
+- GO: Evacuation order issued. Leave immediately via designated routes.
+
+RESOURCE PRE-POSITIONING GUIDELINES:
+- Type 1 engines within 15-minute response time of high-risk areas.
+- Aerial resources (helicopters, air tankers) on standby at nearest air base.
+- Water tenders staged at key highway corridors near wildland-urban interface.
+- Incident Management Teams on alert for potential deployment.
+
+MUTUAL AID:
+- California Master Mutual Aid Agreement: counties request cross-county assistance.
+- Federal resources (USFS, BLM) available through NIFC coordination.
+
+COMMUNICATION PROTOCOLS:
+- Red Flag Warnings: issued by NWS for critical fire weather.
+- Wireless Emergency Alerts (WEA): imminent evacuation orders.
+- Community notification via Nixle, AlertCA, local emergency apps.
+
+HISTORICAL CONTEXT:
+- CA fire season peaks July–November; Santa Ana events October–December.
+- 2020 August Complex Fire: 1M+ acres, largest in CA history.
+- 2018 Camp Fire (Paradise): 85 fatalities, 40+ mph winds through dense WUI.
